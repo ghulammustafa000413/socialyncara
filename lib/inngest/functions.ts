@@ -116,3 +116,15 @@ export const scheduleLinkedInPost = inngest.createFunction(
         return { status: "scheduled_triggered" };
     }
 );
+
+/**
+ * Test function to verify Inngest setup
+ */
+export const helloWorld = inngest.createFunction(
+    { id: "hello-world" },
+    { event: "test/hello.world" },
+    async ({ event, step }) => {
+        await step.sleep("wait-a-moment", "1s");
+        return { message: `Hello ${event.data.email || 'World'}!` };
+    },
+);
