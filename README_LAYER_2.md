@@ -18,7 +18,7 @@ DATABASE_URL="file:./dev.db"
 # Security
 ENCRYPTION_KEY="replace_this_with_a_secure_32_char_key_!!"
 NEXTAUTH_SECRET="development_secret_key_123"
-NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL="https://socialyncara.vercel.app"
 
 # OAuth Providers (Mock values for demo)
 GOOGLE_CLIENT_ID="mock_client_id"
@@ -45,7 +45,7 @@ npx prisma db push
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000).
+Open [https://socialyncara.vercel.app](https://socialyncara.vercel.app).
 
 ---
 

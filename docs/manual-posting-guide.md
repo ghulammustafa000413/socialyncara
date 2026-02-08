@@ -33,7 +33,7 @@ This feature allows users to manually create, schedule, and publish posts to Lin
     Ensure `.env` has:
     ```env
     N8N_PUBLISH_WEBHOOK_URL="[Your n8n webhook URL]"
-    NEXTAUTH_URL="http://localhost:3000"
+    NEXTAUTH_URL="https://socialyncara.vercel.app"
     ```
 
 3.  **n8n Import**:

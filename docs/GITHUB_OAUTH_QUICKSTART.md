@@ -24,7 +24,7 @@ npm run dev
 ```
 
 ### 4️⃣ Test It
-- Go to: http://localhost:3000/login
+- Go to: https://socialyncara.vercel.app/login
 - Click: **GitHub** button
 - Authorize the app
 - ✅ You should be logged in!
@@ -45,12 +45,12 @@ npm run dev
 ### Update GitHub OAuth App
 1. Add production callback URL:
    ```
-   https://yourdomain.com/api/auth/callback/github
+   https://socialyncara.vercel.app/api/auth/callback/github
    ```
 
 ### Update Environment Variables
 ```env
-NEXTAUTH_URL="https://yourdomain.com"
+NEXTAUTH_URL="https://socialyncara.vercel.app"
 GITHUB_CLIENT_ID="your_client_id"
 GITHUB_CLIENT_SECRET="your_client_secret"
 ```

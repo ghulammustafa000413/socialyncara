@@ -11,7 +11,7 @@ The core flow is built, but each platform needs specific logic in `app/api/oauth
 - [ ] **Instagram Graph API**: Implement the profile fetching logic (requires Page ID and User ID exchange).
 - [ ] **LinkedIn**: Map the `r_liteprofile` fields to the `metadata` JSON.
 - [ ] **TikTok/Reddit**: Add these to the `OAUTH_PROVIDERS` config in `lib/oauth.ts` and handle their unique response formats.
-- [ ] **Redirect URI Sync**: Ensure `http://localhost:3000/api/oauth/callback` is registered in **all** developer portals (Meta, Google, X, etc.).
+- [ ] **Redirect URI Sync**: Ensure `https://socialyncara.vercel.app/api/oauth/callback` is registered in **all** developer portals (Meta, Google, X, etc.).
 
 ---
 

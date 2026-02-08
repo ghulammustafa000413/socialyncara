@@ -178,7 +178,7 @@ GitHubProvider({
    ```
 
 4. **Test Login**
-   - Navigate to: http://localhost:3000/login
+   - Navigate to: https://socialyncara.vercel.app/login
    - Click "GitHub" button
    - Authorize application
    - Verify redirect to dashboard
@@ -217,7 +217,7 @@ GitHubProvider({
 
 ### Production Callback URL:
 ```
-https://yourdomain.com/api/auth/callback/github
+https://socialyncara.vercel.app/api/auth/callback/github
 ```
 
 ---

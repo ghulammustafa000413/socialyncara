@@ -30,7 +30,7 @@ We're requesting: `openid profile email w_member_social`
 ### 2. `redirect_uri_mismatch`
 **Cause**: The redirect URI doesn't exactly match what's in your app settings
 **Fix**:
-- Verify `http://localhost:3000/api/oauth/callback` is in your "Authorized redirect URLs"
+- Verify `https://socialyncara.vercel.app/api/oauth/callback` is in your "Authorized redirect URLs"
 - Check for trailing slashes, http vs https, port numbers
 
 ### 3. `invalid_client_id` or `invalid_client_secret`
@@ -57,7 +57,7 @@ We're requesting: `openid profile email w_member_social`
    
 3. **Check LinkedIn Developer Portal**:
    - Products tab: Are "Share on LinkedIn" and "Sign In with LinkedIn using OpenID Connect" showing as "Approved"?
-   - Auth tab: Is the redirect URI exactly `http://localhost:3000/api/oauth/callback`?
+   - Auth tab: Is the redirect URI exactly `https://socialyncara.vercel.app/api/oauth/callback`?
 
 4. **Check browser console**:
    - Open DevTools (F12)

@@ -101,7 +101,7 @@ You should see these scopes available:
 
 ### 4.1 Open the Dashboard
 1. Navigate to your SocialyNikara dashboard
-2. Go to **"Connect Accounts"** page: `http://localhost:3000/dashboard/connect`
+2. Go to **"Connect Accounts"** page: `https://socialyncara.vercel.app/dashboard/connect`
 
 ### 4.2 Open LinkedIn Connect Modal
 1. Find the **LinkedIn** card
@@ -113,7 +113,7 @@ Fill in the form with the credentials from Step 3.2:
 
 - **LinkedIn Client ID**: Paste your Client ID
 - **LinkedIn Client Secret**: Paste your Client Secret
-- **Authorized Redirect URI**: This is auto-filled (should be `http://localhost:3000/api/oauth/callback`)
+- **Authorized Redirect URI**: This is auto-filled (should be `https://socialyncara.vercel.app/api/oauth/callback`)
 
 ### 4.4 Review Instructions
 The modal contains:
@@ -175,7 +175,7 @@ On the **"Connect Accounts"** page, the LinkedIn card should now show:
 
 **Solution**:
 1. Go to LinkedIn Developer Portal > Your App > Auth tab
-2. Verify `http://localhost:3000/api/oauth/callback` is listed exactly in "Authorized redirect URLs"
+2. Verify `https://socialyncara.vercel.app/api/oauth/callback` is listed exactly in "Authorized redirect URLs"
 3. Check for:
    - Trailing slashes (should NOT have one)
    - Correct protocol (http for localhost, https for production)
