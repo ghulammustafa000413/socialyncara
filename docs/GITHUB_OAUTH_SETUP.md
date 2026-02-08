@@ -18,9 +18,9 @@ Fill in the following details:
 | Field | Value |
 |-------|-------|
 | **Application name** | SocialSyncAra (or your preferred name) |
-| **Homepage URL** | `http://localhost:3000` |
+| **Homepage URL** | `https://socialyncara.vercel.app` |
 | **Application description** | Social media automation platform (optional) |
-| **Authorization callback URL** | `http://localhost:3000/api/auth/callback/github` |
+| **Authorization callback URL** | `https://socialyncara.vercel.app/api/auth/callback/github` |
 
 > **Important**: The callback URL must match exactly. NextAuth.js automatically handles the `/api/auth/callback/github` route.
 

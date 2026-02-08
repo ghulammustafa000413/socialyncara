@@ -80,8 +80,8 @@ Scroll down to **"OAuth 2.0 settings"** section:
 
 1. Find **"Authorized redirect URLs for your app"**
 2. Click **"Add redirect URL"**
-3. Enter: `http://localhost:3000/api/oauth/callback`
-   - For production, use: `https://yourdomain.com/api/oauth/callback`
+3. Enter: `https://socialyncara.vercel.app/api/oauth/callback`
+   - **Important**: This must match exactly what is used in the application.
 4. Click **"Update"**
 
 **Important**: The redirect URL must match exactly (including http/https, port, and path).

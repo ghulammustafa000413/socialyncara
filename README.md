@@ -22,7 +22,7 @@ SUPABASE_ANON_KEY="your-anon-key"
 
 # Security
 ENCRYPTION_KEY="your-32-char-encryption-key-!!"
-NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL="https://socialyncara.vercel.app"
 NEXTAUTH_SECRET="your-nextauth-secret"
 
 # OAuth Providers

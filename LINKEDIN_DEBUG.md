@@ -5,7 +5,7 @@
 ### LinkedIn App Settings (from your portal)
 - **Client ID**: `YOUR_CLIENT_ID`
 - **Client Secret**: `YOUR_CLIENT_SECRET`
-- **Redirect URI**: `http://localhost:3000/api/oauth/callback`
+- **Redirect URI**: `https://socialyncara.vercel.app/api/oauth/callback`
 
 ### Approved Scopes (from your portal)
 - `r_verify` - Get your profile verification

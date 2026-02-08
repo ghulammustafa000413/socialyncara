@@ -6,8 +6,8 @@
 - Go to: https://github.com/settings/developers
 - Click: **OAuth Apps** → **New OAuth App**
 - Fill in:
-  - **Homepage URL**: `http://localhost:3000`
-  - **Callback URL**: `http://localhost:3000/api/auth/callback/github`
+  - **Homepage URL**: `https://socialyncara.vercel.app`
+  - **Authorization callback URL**: `https://socialyncara.vercel.app/api/auth/callback/github`
 - Click: **Register application**
 - Click: **Generate a new client secret**
 - ✅ Copy Client ID and Client Secret
